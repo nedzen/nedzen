@@ -1,52 +1,28 @@
 import React from 'react';
 import Layout from '../components/Layout';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
-import ProjectData from '../data/data.json';
+// import ProjectData from '../data/data.json';
 // import posthog from 'posthog-js';
 // import Project from '../components/Project';
-
-const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 // const handleOnBuy = () => {
 //   posthog.capture('purchase', { price: 5900, currency: 'USD' });
 // };
 
-const introcontent = `<p>Hello, I'm Marius, a digital product designer with a passion for creating User Interfaces that look great and deliver results. By combining my expertise in User Experience and brand identity, I've been able to create products that have been used and adored by millions. My client portfolio includes industry giants such as HPE, Gorgias, Hookdeck, as well as startups.</p><p>On each project, I strive to deliver simple, intuitive designs that help businesses succeed. I love to take on UX challenges, test hypotheses and achieve measurable results for my clients.</p>`;
-
-const Post = ({ ...props }) => {
-  const { ID, coverImg, title } = props.data;
-  return (
-    <div className="post" id={ID}>
-      <Link href={'work/' + ID} scroll={true} passHref>
-        <a>
-          <Image
-            blurDataURL={blurIMG}
-            placeholder="blur"
-            alt={`cover`}
-            src={coverImg.src}
-            width={coverImg.width}
-            height={coverImg.height}
-            priority
-          />
-          <span className="h4">{title}</span>
-        </a>
-      </Link>
-    </div>
-  );
-};
+const introcontent = `<p>Art is 'the thing' being made just as much as the act of making it. I enjoy the process. It is deeply satisfying. That is enough of a reason to keep doing it. The concepts and ideas I incorporate in my work have varied significantly over time. At the moment, I feel more at ease with visual art, but that as well may change over time.</p>`;
 
 export const About = (): JSX.Element => {
   return (
     <Layout
       customMeta={{
-        title: 'Marius Nedelcu - digital product design - UX/UI',
+        title: 'nedzen',
       }}
     >
       <header className="postHeader">
         <div className="intro">
           <>
-            <ul className="secNav">
+            {/* <ul className="secNav">
               <li>
                 <Image
                   blurDataURL={blurIMG}
@@ -61,20 +37,20 @@ export const About = (): JSX.Element => {
               <li>
                 <mark>Contact: hello@mariusnedelcu.com</mark>
               </li>
-            </ul>
+            </ul> */}
             <div dangerouslySetInnerHTML={{ __html: introcontent }} />
           </>
-          <div className="pb05">
-            <strong>PROJECTS:</strong>
-          </div>
         </div>
       </header>
 
       <main className="DSGN">
         <div className="rowpost">
-          {ProjectData.map((item: any, i: number) => {
+          {/* {ProjectData.map((item: any, i: number) => {
             return <Post key={i} data={item} />;
-          })}
+          })} */}
+          <Link href="/gallery" passHref>
+            <a>gallery</a>
+          </Link>
         </div>
       </main>
     </Layout>

@@ -114,7 +114,7 @@ export const About = (): JSX.Element => {
       <main>
         <div className="content">
           <div id="rgbKineticSlider" className="rgbKineticSlider"></div>
-          <nav>
+          <nav className="galNav">
             <a href="#" className="main-nav prev" data-nav="previous">
               Prev <span></span>
             </a>
