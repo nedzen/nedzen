@@ -19,7 +19,7 @@ export const NFTpage = (): JSX.Element => {
           {Generation.map((el, index: number) => {
             return (
               <li key={index}>
-                <ul className='tillandsias'>
+                <ul className="tillandsias">
                   <li>
                     {/* <Image
                       blurDataURL={blurIMG}
@@ -32,7 +32,7 @@ export const NFTpage = (): JSX.Element => {
                       layout="responsive"
                     /> */}
                   </li>
-                  <img src={el.href}/>
+                  <img src={el.href} />
                   <li>{el.id}</li>
                   <li>{el.width}</li>
                   <li>{el.height}</li>
