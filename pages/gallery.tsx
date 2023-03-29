@@ -11,6 +11,12 @@ import Script from 'next/script';
 //   posthog.capture('purchase', { price: 5900, currency: 'USD' });
 // };
 
+// "https://replicate.delivery/pbxt/zf6s2b9ZPnVrECzeFMxZNy62S10ydoTOiPk01QlfVKdvqeoCB/out.png",
+// "https://replicate.delivery/pbxt/ZoOf1UuMFE1zeEvG7iVv1RfRO70jNhbLIwzjvYvtkF0nf8oCB/out.png",
+// "https://replicate.delivery/pbxt/lNW3yA4ueg1nBiuQcWZxjD6QXf4OpAoUTa7e0QeD5cCLUHlCB/out.png",
+// "https://replicate.delivery/pbxt/09MeFf9LqEmudknH4lHPUZywJ5RoxzfJJgPcUnX2tWGTuvRhA/out.png",
+// "https://replicate.delivery/pbxt/bI5oTvzbZdY8EVrJ9HWjaZ1nLyGTi15IimmweAvr6DsefuRhA/out.png"
+
 const script = `
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -31,11 +37,19 @@ const script = `
 
     // images setup
     const images = [
-      "https://replicate.delivery/pbxt/3Br5OckHGD5ZI102jMKeK6bdWuKQmeFDBzPtpgWro0yk4riQA/out-0.png",
-      "https://replicate.delivery/pbxt/pQ8j7QGMJxqcAVvCetDP2I5Gq8mXigcNBwQpUkcvDwOf3riQA/out-0.png",
-      "https://replicate.delivery/pbxt/uueQj4VcoPxVLavUvcFPhuLstNDUOKIePffmXxE9SoI4TvKCB/out-0.png",
-      "https://replicate.delivery/pbxt/VrUjUceUKpyORyOfahhGz3XfRbfbE0uB5bUgJkfiIojIheqIE/out-0.png",
-      "https://replicate.delivery/pbxt/sIwuPVHpf5zYHqr06PZrc2InfDmu3fGhy0DWoekkj9YEMvKCB/out-0.png"
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic0.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic1.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic2.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic3.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic4.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic5.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic6.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic7.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic8.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic9.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic10.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic11.jpg",
+      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic12.jpg"
     ];
 
     // content setup
@@ -125,7 +139,7 @@ export const About = (): JSX.Element => {
         </div>
 
         <div dangerouslySetInnerHTML={{ __html: scripts }} />
-        <Script src="lib/rgbKineticSlider.js" />
+        <Script src="scripts/rgbKineticSlider.js" />
         <div dangerouslySetInnerHTML={{ __html: script }} />
       </main>
     </Layout>
