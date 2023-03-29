@@ -1,0 +1,431 @@
+[
+  {
+    "ID": "02_hookdeck_app",
+    "title": "Hookdeck: Improving the UX for a technical product that saves hundreds of hours of dev-time every day",
+    "coverImg": {
+      "src": "/images/hookdeck.svg",
+      "width": 150,
+      "height": 40
+    },
+    "date": "2022",
+    "client": "Hookdeck.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A42396%26t%3D1SnWzHuhqpBDe5LP-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Hookdeck is a Canada-based company focused on providing infrastructure for webhook management. The product enables customers to do operations on their webhooks that would otherwise require custom development in the back ends of their products. With Hookdeck, you can view, monitor, manage, throttle, retry or transform packages sent by your webhooks. It is an essential product for modern tech that uses a microservice architecture.",
+    "details": "<p>It was a great experience working at Hookdeck as a product designer. It was stimulating to work closely with Alex, who is the CEO and a designer himself. The challenges were always thrilling; I had to know everything about webhook workflows to improve this product's UX. During my time at Hookdeck, I worked on optimizing certain features and designing new ones, collaborating closely with the product team and a group of power users.</p>",
+    "tasks": [
+      "Design UI's and create prototypes for new features",
+      "Actively search and identify UX issues and suggest improvements",
+      "Implement workflows to facilitate collaboration with devs and other designers",
+      "Test prototypes with a group of users and gather feedback",
+      "Iterate design solutions based on user feedback",
+      "Create a comprehensive UI design system for the web app"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Quotas.png",
+        "alt": "PREVIEW_1: Redesign Quotas",
+        "caption": "PREVIEW_1: Redesign Quotas",
+        "width": 8251,
+        "height": 2696,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Bulk_Retry.png",
+        "alt": "PREVIEW_2: Design BULK RETRY",
+        "caption": "PREVIEW_2: Design BULK RETRY",
+        "width": 8042,
+        "height": 2998,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Sidebar.png",
+        "alt": "PREVIEW_3: Redesign Sidebar",
+        "caption": "PREVIEW_3: Redesign Sidebar",
+        "width": 5245,
+        "height": 2708,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Histogram.png",
+        "alt": "PREVIEW_3: Redesign Histogram",
+        "caption": "PREVIEW_3: Redesign Histogram",
+        "width": 10500,
+        "height": 2999,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/hookdeck/hookdeck_Filters.png",
+        "alt": "PREVIEW_3: Redesign Filters",
+        "caption": "PREVIEW_3: Redesign Filters",
+        "width": 10203,
+        "height": 4715,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "01_gorgias_app",
+    "title": "Gorgias: Designing a Helpdesk product with over 10,000 customers resolving millions of support tickets daily.",
+    "coverImg": {
+      "src": "/images/gorgias.svg",
+      "width": 122,
+      "height": 40
+    },
+    "date": "2018-2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D103%253A8851%26t%3D1SnWzHuhqpBDe5LP-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Gorgias is a San Francisco-based company focused on providing the best helpdesk product for e-commerce Platforms like Shopify, Magento, and BigCommerce. Merchants love to use Gorgias because it integrates with social media channels where most support requests are initiated and uses AI automation flows to treat tickets effectively. Presently, Gorias is at 75M in funding, with over 250+ employees and offices in 7 countries.",
+    "details": "<p>I have worked with Gorgias on multiple projects, from branding and marketing to product design. At the core of our collaboration was a shared belief that we could create a product that makes customer support easier. Working closely with the product team, I designed features, gathered customer feedback, and implemented workflows to collaborate more effectively and improve the product.</p>",
+    "tasks": [
+      "Identify UX issues, and suggest solutions",
+      "Work with developers to implement new features and provide feedback or required visual assets",
+      "Design UI's and create prototypes for new features",
+      "Work with product owners to design solutions (products) to meet other needs of our customers",
+      "Implement workflows to facilitate collaboration with devs",
+      "Create a comprehensive UI design system for the web app, the widget, and for the mobile app",
+      "Test prototypes with a group of users and gather feedback",
+      "Iterate design solutions based on user feedback",
+      "Actively search and identify UX issues and suggest improvements",
+      "The logo was designed by me also, 1 year before"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app.png",
+        "alt": "PREVIEW_1: Ticket listing view.",
+        "caption": "PREVIEW_1: Ticket listing view.",
+        "width": 4885,
+        "height": 5083,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_web_app-1.png",
+        "alt": "PREVIEW_2: Web App preview stats view.",
+        "caption": "PREVIEW_2: Web App preview stats view.",
+        "width": 4885,
+        "height": 10258,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_app/gorgias_helpdesk_mobile_app.png",
+        "alt": "PREVIEW_3: Overview of the mobile app.",
+        "caption": "PREVIEW_3: Overview of the mobile app.",
+        "width": 4885,
+        "height": 5083,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "05_gorgias_helpcenter",
+    "title": "Gorgias: Designing a self-service portal for Ecommerce platforms",
+    "coverImg": {
+      "src": "/images/gorgias.svg",
+      "width": 122,
+      "height": 40
+    },
+    "date": "2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A31534%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "This product is an extension of the Gorgias Helpdesk available on Premium plans and allows merchants to add self-service features for their customers. It solves the problem of the most common support requests typically related to recently placed orders. We wanted to create a product that let customers handle these operations themselves. Doing this would reduce support requests by 20-30%. The self-service portal can also host the merchant's brand documentation structured on topics, FAQs and facilitate access to more direct support methods. Its backend config is accessible inside the Gorgias helpdesk. The self-service portal can be deployed as a standalone module on its subdomain URL or be triggered within the Gorgias support widget upon specific support queries.",
+    "details": "<p>My role on this project was creating prototypes for various user flows and conducting testing in collaboration with the product manager who formulated the initial hypotheses. This product operates on three different platforms; within the support chat widget, as a standalone website, and the backend within the Gorgias helpdesk. In each case, the limitations and affordances had to be carefully considered, such as enabling customization options to align aesthetics to the customer's brand or adhering to a design system or another - within the widget or the helpdesk.</p>",
+    "tasks": [
+      "Design the interface for the product on both platforms; (embedded and chat-widget)",
+      "Create a unified modular design system",
+      "Design the configuration (Backend) part of the product within the Gorgias helpdesk",
+      "Design paywalls within the helpdesk to enable access to this new feature(product)",
+      "Produce prototypes for early testing with a group of customers and get feedback from the product team",
+      "Refine the design, implement feedback"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/1_gorgias_helpcenter_(portal).png",
+        "alt": "PREVIEW_1 Gorgias Helpcenter - Portal",
+        "caption": "PREVIEW_1 Gorgias Helpcenter - Portal",
+        "width": 5413,
+        "height": 8986,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/2_gorgias_helpcenter_(portal).png",
+        "alt": "PREVIEW_2 Gorgias Helpcenter - Portal",
+        "caption": "PREVIEW_2 Gorgias Helpcenter - Portal",
+        "width": 5267,
+        "height": 9650,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/3_gorgias_helpcenter_(portal).png",
+        "alt": "PREVIEW_3 Gorgias Helpcenter - Portal",
+        "caption": "PREVIEW_3 Gorgias Helpcenter - Portal",
+        "width": 5401,
+        "height": 3899,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/4_gorgias_helpcenter_(widget).png",
+        "alt": "PREVIEW_4 Gorgias Helpcenter - Widget",
+        "caption": "PREVIEW_4 Gorgias Helpcenter - Widget",
+        "width": 5113,
+        "height": 2713,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_helpcenter/5_gorgias_helpcenter_(backend).png",
+        "alt": "PREVIEW_5 Gorgias Helpcenter - Backend",
+        "caption": "PREVIEW_5 Gorgias Helpcenter - Backend",
+        "width": 5113,
+        "height": 4010,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "05_gorgias_www",
+    "title": "Gorgias: Branding and website",
+    "coverImg": {
+      "src": "/images/gorgias.svg",
+      "width": 122,
+      "height": 40
+    },
+    "date": "2021",
+    "client": "Gorgias.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D104%253A8860%26t%3DXqAmgx7VPNhZV1K4-1",
+    "tags": [
+      "Strategy",
+      "Illustration",
+      "Design",
+      "Systems",
+      "Marketing",
+      "Branding",
+      "AB testing"
+    ],
+    "intro": "The design of the old website was dated. The colors were too common, the typography was pretty bad and the illustrations showing the product were dated or bluntly made by non-designer people. We needed a full rehaul of the entire website and a new style guide.",
+    "details": "<p>The results were impressive. Customer acquisition doubled. We received mixed feedback but mostly good. We AB-tested and tweaked some copywriting and illustrations, prospect customers understood much better the product's functionality and pricing. Bounce-rate dropped. We released the new website around the beginning of the pandemic so there was that too, the entire eCommerce sector was booming. The conversion of the ads was great, the bold colors and style worked fabulously!</p> <p>I learned quite a bit about the growth marketing tactics applied at a fast-growing company. I also learned how to conduct effective AB-testing and how to write good copy. It was cool to collaborate with the marketing team, assist along with the production of new promotional assets, test new taglines, and see, first-hand what converts best.<p>",
+    "tasks": [
+      "Produce a new visual appeal for the brand that would incorporate the company's values and ambitions",
+      "Come up with a strategy for effectively presenting key features of the product",
+      "Collaborate with the head of marketing in Paris to define the strategy, the voice, and tone of the language; and also to write the initial copy",
+      "Create a new brand style guide including colors, illustrations, icons, typography",
+      "Make a brand book where the new guidelines are referenced",
+      "Design the new website entirely and create a design system to easily produce new pages",
+      "Supervise the production of collateral design assets (mainly promotional materials) by other freelancers"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_branding.png",
+        "alt": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide",
+        "caption": "PREVIEW_1 Gorgias Branding, Logo and Marketing Guide",
+        "width": 4885,
+        "height": 9500,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_landingpage.png",
+        "alt": "PREVIEW_3 Landingpage",
+        "caption": "PREVIEW_3 Landingpage",
+        "width": 3163,
+        "height": 13966,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_pricing.png",
+        "alt": "PREVIEW_2 pricing page",
+        "caption": "PREVIEW_2 pricing page",
+        "width": 2562,
+        "height": 7024,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/gorgias_www/gorgias_www_blog.png",
+        "alt": "PREVIEW_2 Blog pages",
+        "caption": "PREVIEW_2 Blog pages",
+        "width": 2562,
+        "height": 9370,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "03_braintrust_helpcenter",
+    "title": "Braintrust: Designing a helpcenter for the community",
+    "coverImg": {
+      "src": "/images/braintrust.svg",
+      "width": 140,
+      "height": 40
+    },
+    "date": "2021",
+    "client": "Braintrust.com",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D618%253A64053%26t%3DtK7sxZO3zulXCrhl-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Braintrust is a revolutionary freelancer marketplace that connects skilled tech experts with clients. Today the network hosts over 500 companies and 50,000 freelancers who have cumulated earnings exceeding 70M in the past two years. Braintrust introduced a blockchain-based network dynamic that enables community members to participate in the governance and have ownership by earning and holding the BTRST token.",
+    "details": "<p>I am an early member of the Braintrust network of talent, and I have witnessed its spectacular growth and energy up close, engaging in the Discord group. I wanted to get more involved, so I seized the first opportunity to contribute to improving the online platform.</p><p>The team needed to create a knowledge base to host documentation about topics of interest for both talent and clients. As the network grew exponentially, the inquiries and questions multiplied. The envisioned solution was to create a help center incorporating a knowledge base of articles structured by topic, an FAQ, and ultimately facilitating access to other more direct support methods.</p>",
+    "tasks": [
+      "Create design mockups for all the pages of the help center platform using Braintrust design systems",
+      "Make the entire design adaptable to various screen sizes",
+      "Produce an interactive prototype",
+      "Test with a focus group",
+      "Implement revisions, and hand out assets for development"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(search_results).png",
+        "alt": "PREVIEW_1 Help Center - Search Results",
+        "caption": "PREVIEW_1 Help Center - Search Results",
+        "width": 2460,
+        "height": 5016,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(main_view).png",
+        "alt": "PREVIEW_2 Help Center - Main View",
+        "caption": "PREVIEW_2 Help Center - Main View",
+        "width": 9090,
+        "height": 5697,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(article_page).png",
+        "alt": "PREVIEW_3 Help Center - Article Page",
+        "caption": "PREVIEW_3 Help Center - Article Page",
+        "width": 2460,
+        "height": 8580,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(topic).png",
+        "alt": "PREVIEW_4 Help Center - Topic Overview",
+        "caption": "PREVIEW_4 Help Center - Topic Overview",
+        "width": 2460,
+        "height": 4962,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/braintrust/braintrust_Help_Center_(articles_overview).png",
+        "alt": "PREVIEW_5 Help Center - Articles Overview",
+        "caption": "PREVIEW_5 Help Center - Articles Overview",
+        "width": 2460,
+        "height": 8880,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "06_dive_www",
+    "title": "Dive Analytics - Complete redesign of the product and the marketing website",
+    "coverImg": {
+      "src": "/images/dive.svg",
+      "width": 80,
+      "height": 40
+    },
+    "date": "2022",
+    "client": "Diveanalytics.co",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D469%253A41297%26t%3Dli7Fp6nov7vBUqsv-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Dive is a BI data analysis tool designed for eCommerce businesses. It syncs with platforms like Shopify, Google AdSense, TikTok, Facebook, and Klaviyo. With Dive's powerful data analysis tools, users can get insights from all this data by creating objective-focused custom dashboards. It also brings a suite of collaborative features, making it ideal for setting goals and tracking eCommerce KPIs for different teams; Marketing, Product, or Operations. It is used by top retail brands in France, like Asphalte and Volcomm.",
+    "details": "<p>I worked with Dive on the product and the marketing website. I created a new UI design system with a different aesthetic appeal for the product. Next, we approached each UX issue in the product, and following customer feedback, I redesigned those features. The product significantly evolved in the following months. During my collaboration with Dive, I worked on the design of a dozen new features. To ensure a seamless UX, I created Figma prototypes for each flow and tested them with a small group of customers in collaboration with the PM.</p>",
+    "tasks": [
+      "Design UI's and create prototypes for new features",
+      "Actively search and identify UX issues and suggest improvements",
+      "Implement workflows to facilitate collaboration with devs and other designers",
+      "Test prototypes with a group of users and gather feedback",
+      "Iterate design solutions based on user feedback",
+      "Create a comprehensive UI design system for the web app",
+      "Design website layout",
+      "Create visual assets to show product functionality"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_landing.png",
+        "alt": "PREVIEW_1 Landing Page",
+        "caption": "PREVIEW_1 Landing Page",
+        "width": 3601,
+        "height": 10550,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_pricing.png",
+        "alt": "PREVIEW_2 Pricing Page",
+        "caption": "PREVIEW_2 Pricing Page",
+        "width": 3601,
+        "height": 5543,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_product.png",
+        "alt": "PREVIEW_3 Product Page",
+        "caption": "PREVIEW_3 Product Page",
+        "width": 3601,
+        "height": 7353,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_www_case_study.png",
+        "alt": "PREVIEW_4 Case Study Page",
+        "caption": "PREVIEW_4 Case Study Page",
+        "width": 3601,
+        "height": 8219,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/dive_www/dive_assets.png",
+        "alt": "PREVIEW_5 Other Dive Assets",
+        "caption": "PREVIEW_5 Other Dive Assets",
+        "width": 2704,
+        "height": 2100,
+        "loading": "lazy"
+      }
+    ]
+  },
+  {
+    "ID": "07_scytale_www",
+    "title": "Scytale website design and development",
+    "coverImg": {
+      "src": "/images/scytale.svg",
+      "width": 120,
+      "height": 40
+    },
+    "date": "2022",
+    "client": "scytale.io",
+    "embed": "https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxajn9H0Vx7rd5qx4NfDUTN%2FPortfolio%3Fnode-id%3D115%253A40342%26t%3Dli7Fp6nov7vBUqsv-1",
+    "tags": ["UX", "UI", "Design", "Systems", "Prototype", "Testing"],
+    "intro": "Scytale is an identity management service that enables frictionless authentication across any cloud platform. The company raised a series A of 5M and was later acquired by HPE.",
+    "details": "<p>Prior to starting the design phase I working with the head of marketing on the website UX & content strategy. Next, I designed and developed the website along with all the visual assets required for conveying key product features and functionality. Occasionally I also created promotional materials used in events or online growth tactics.</p>",
+    "tasks": [
+      "Design the website along with the illustrations and icons",
+      "Development of the site; jam stack - static with an API-based CMS",
+      "Implement continuous development CI/CD",
+      "Optimise for mobile and performance",
+      "Integrate performance-specific services for AB-testing and growth.",
+      "Integrate a blog and a resources section that allows visitors to download technical material after filling up a form with their info",
+      "Integrate a newsletter - Create zappier automation for transactional emailing"
+    ],
+    "role": "Product Designer",
+    "images": [
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www.png",
+        "alt": "PREVIEW_1 Landing Page",
+        "caption": "PREVIEW_5 Other Dive Assets",
+        "width": 5263,
+        "height": 9467,
+        "loading": "lazy"
+      },
+      {
+        "src": "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/scytale_www/scytale_www_blog.png",
+        "alt": "PREVIEW_2 Blog Page",
+        "caption": "PREVIEW_5 Other Dive Assets",
+        "width": 5122,
+        "height": 5586,
+        "loading": "lazy"
+      }
+    ]
+  }
+]

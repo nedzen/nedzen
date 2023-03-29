@@ -1,0 +1,11 @@
+export type PostType = {
+  date?: string;
+  description?: string;
+  image?: string;
+  slug: string;
+  title: string;
+  tag?: string;
+  imageW?: string;
+  imageH?: string;
+  imageCaption?: string;
+};
