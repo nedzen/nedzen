@@ -11,6 +11,19 @@ import Script from 'next/script';
 //   posthog.capture('purchase', { price: 5900, currency: 'USD' });
 // };
 
+// https://ibb.co/LNKqQRq | https://i.ibb.co/8YkRzsR/pic1.jpg
+// https://ibb.co/CJrVF89 | https://i.ibb.co/3fJSHdF/pic2.jpg
+// https://ibb.co/T4nYW9Q | https://i.ibb.co/VghJwfF/pic3.jpg
+// https://ibb.co/c6r18hs | https://i.ibb.co/8r70xgQ/pic4.jpg
+// https://ibb.co/1rn9Z6L | https://i.ibb.co/y6R80SX/pic5.jpg
+// https://ibb.co/r25TQJD | https://i.ibb.co/zVPjmwq/pic6.jpg
+// https://ibb.co/wydTbdP | https://i.ibb.co/CBwqXwY/pic7.jpg
+// https://ibb.co/0yR6q07 | https://i.ibb.co/1GtPZCg/pic8.jpg
+// https://ibb.co/9nKsGYq | https://i.ibb.co/TcjmrhH/pic9.jpg
+// https://ibb.co/pK9GtMp | https://i.ibb.co/Ks3RMfH/pic10.jpg
+// https://ibb.co/R7Rbf9S | https://i.ibb.co/V3f9RtN/pic11.jpg
+// https://ibb.co/V2bSJtV | https://i.ibb.co/wM8WBRy/pic12.jpg
+
 // "https://replicate.delivery/pbxt/zf6s2b9ZPnVrECzeFMxZNy62S10ydoTOiPk01QlfVKdvqeoCB/out.png",
 // "https://replicate.delivery/pbxt/ZoOf1UuMFE1zeEvG7iVv1RfRO70jNhbLIwzjvYvtkF0nf8oCB/out.png",
 // "https://replicate.delivery/pbxt/lNW3yA4ueg1nBiuQcWZxjD6QXf4OpAoUTa7e0QeD5cCLUHlCB/out.png",
@@ -37,19 +50,19 @@ const script = `
 
     // images setup
     const images = [
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic0.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic1.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic2.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic3.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic4.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic5.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic6.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic7.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic8.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic9.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic10.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic11.jpg",
-      "https://s3.eu-west-1.amazonaws.com/mariusnedelcu.com/tillandsia/pic12.jpg"
+      "https://i.ibb.co/8YkRzsR/pic1.jpg",
+      "https://i.ibb.co/3fJSHdF/pic2.jpg",
+      "https://i.ibb.co/VghJwfF/pic3.jpg",
+      "https://i.ibb.co/8r70xgQ/pic4.jpg",
+      "https://i.ibb.co/y6R80SX/pic5.jpg",
+      "https://i.ibb.co/zVPjmwq/pic6.jpg",
+      "https://i.ibb.co/CBwqXwY/pic7.jpg",
+      "https://i.ibb.co/1GtPZCg/pic8.jpg",
+      "https://i.ibb.co/TcjmrhH/pic9.jpg",
+      "https://i.ibb.co/Ks3RMfH/pic10.jpg",
+      "https://i.ibb.co/V3f9RtN/pic11.jpg",
+      "https://i.ibb.co/wM8WBRy/pic12.jpg"
+      // ---// ---// ---// ---// ---// ---
     ];
 
     // content setup
