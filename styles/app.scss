@@ -628,7 +628,7 @@ ul.tillandsias {
 
 * {
   outline: 1px solid $pink;
- }
+}
 
 @media screen and (min-width: 53em) {
   .message {
@@ -715,7 +715,8 @@ nav.galNav {
     top: 50vh;
     z-index: 1;
     font-size: 3em;
-    &:hover, a:focus {
+    &:hover,
+    a:focus {
       color: #ff00cc;
       outline: none;
     }
@@ -741,7 +742,6 @@ nav.galNav {
     left: 10vw;
   }
 }
- 
 
 @media screen and (max-width: 53em) {
   nav.galNav a {
