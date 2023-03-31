@@ -34,7 +34,7 @@ export const script = `
       }, waitingDuration);
     });
 
-    // images setup 1920 1440
+    // images setup 6600 x 5000 | line 192
     const images = [
       "http://localhost:3000/images/ethereal/ethereal_0.jpg",
       "http://localhost:3000/images/ethereal/ethereal_1.jpg",

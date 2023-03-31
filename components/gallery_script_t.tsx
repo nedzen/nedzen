@@ -21,7 +21,7 @@ export const script = `
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // kinetic slider autoplay
-      var waitingDuration = 5000; // waiting for 1 second
+      var waitingDuration = 9000; // waiting for 1 second
       var counter = 0;
       var clickNextBtn = window.setInterval(function() {
         var nextBtn = document.querySelector('.next');
@@ -34,7 +34,8 @@ export const script = `
       }, waitingDuration);
     });
 
-    // images setup 1920 1440
+    // images setup 3700 x 3000 | line 317
+    
     const images = [
         "http://localhost:3000/images/tillandsias/blood_0.jpg",
         "http://localhost:3000/images/tillandsias/blood_1.jpg",
