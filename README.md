@@ -387,8 +387,7 @@ tracking umami--click--signup-button
   "https://ibb.co/0c6c0kX",
   "https://ibb.co/R0ZqT9t"
 ]
-````
-
+```
 
 https://ibb.co/JHyHvX1
 https://ibb.co/QFP7D7n
