@@ -1,7 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 // import Image from 'next/image';
-import Link from 'next/link';
+// import Link from 'next/link';
 // import ProjectData from '../data/data.json';
 // import posthog from 'posthog-js';
 // import Project from '../components/Project';
@@ -48,9 +48,7 @@ export const About = (): JSX.Element => {
           {/* {ProjectData.map((item: any, i: number) => {
             return <Post key={i} data={item} />;
           })} */}
-          <Link href="/gallery" passHref>
-            <a>gallery</a>
-          </Link>
+          <a href="/gallery">gallery</a>
         </div>
       </main>
     </Layout>
