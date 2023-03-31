@@ -1,16 +1,12 @@
 import React from 'react';
 import Layout from '../components/Layout';
-// import Image from 'next/image';
+import Image from 'next/image';
 // import Link from 'next/link';
 // import ProjectData from '../data/data.json';
 // import posthog from 'posthog-js';
 // import Project from '../components/Project';
 
-// const handleOnBuy = () => {
-//   posthog.capture('purchase', { price: 5900, currency: 'USD' });
-// };
-
-const introcontent = `<p>Art is 'the thing' being made just as much as the act of making it. I enjoy the process. It is deeply satisfying. That is enough of a reason to keep doing it. The concepts and ideas I incorporate in my work have varied significantly over time. At the moment, I feel more at ease with visual art, but that as well may change over time.</p>`;
+const blurIMG = 'https://www.mariusnedelcu.com/images/kitty.jpeg';
 
 export const About = (): JSX.Element => {
   return (
@@ -21,34 +17,50 @@ export const About = (): JSX.Element => {
     >
       <header className="postHeader">
         <div className="intro">
-          <>
-            {/* <ul className="secNav">
-              <li>
-                <Image
-                  blurDataURL={blurIMG}
-                  placeholder="blur"
-                  alt={`cover`}
-                  src={`/images/avatar.png`}
-                  width={50}
-                  height={50}
-                  priority
-                />
-              </li>
-              <li>
-                <mark>Contact: hello@mariusnedelcu.com</mark>
-              </li>
-            </ul> */}
-            <div dangerouslySetInnerHTML={{ __html: introcontent }} />
-          </>
+          <p>
+            Art is the thing being made just as much as the act of making it. I
+            enjoy the process. It is deeply satisfying. That is enough of a
+            reason to keep doing it. The concepts and ideas I incorporate in my
+            work have varied significantly over time. At the moment, I feel more
+            at ease with visual art, but that as well may change over time.
+          </p>
         </div>
       </header>
 
       <main className="DSGN">
         <div className="rowpost">
-          {/* {ProjectData.map((item: any, i: number) => {
-            return <Post key={i} data={item} />;
-          })} */}
-          <a href="/gallery">gallery</a>
+          <ul className="collection">
+            <li>
+              <Image
+                blurDataURL={blurIMG}
+                placeholder="blur"
+                alt="KxvThF8"
+                src="https://i.ibb.co/KxvThF8/carnivora-5.jpg"
+                width={2000}
+                height={2000}
+                priority
+                layout="responsive"
+              />
+              <a target="_blank" href="/gt">
+                Tillandsia Cybersentia
+              </a>
+            </li>
+            <li>
+              <Image
+                blurDataURL={blurIMG}
+                placeholder="blur"
+                alt="KxvThF8"
+                src="https://i.ibb.co/Kb2gxhz/ethereal-0.jpg"
+                width={6000}
+                height={3800}
+                priority
+                layout="responsive"
+              />
+              <a target="_blank" href="/ge">
+                Ethereal hues
+              </a>
+            </li>
+          </ul>
         </div>
       </main>
     </Layout>

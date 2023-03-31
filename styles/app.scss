@@ -163,7 +163,7 @@ button.btn {
 
 button.btn {
   font-weight: 500;
-  background-color: $base-color;
+  background-color: #000;
   color: white;
   cursor: pointer;
   outline: none;
@@ -209,7 +209,7 @@ input.textInput {
     z-index: 1;
   }
   padding: calc($unit / 2);
-  background-color: #fff;
+  background-color: $base-bg;
 }
 
 .navLinks {
@@ -272,7 +272,8 @@ header.postHeader {
   }
   text-align: center;
   padding-bottom: $unit;
-  background-image: url('../public/images/g.svg');
+  // background-image: url('../public/images/g.svg');
+  background-color: #000;
   background-size: 200px auto;
   .intro {
     padding: calc($unit / 2);
@@ -286,6 +287,8 @@ header.postHeader {
       // line-height: $base-lh;
       font-weight: bold;
       max-width: 900px;
+      margin-top: 0;
+      padding-top: 0;
       // font-family: $hex-ff;
       // line-height: 120%;
     }
@@ -749,5 +752,17 @@ nav.galNav {
     top: 2rem;
     left: 10vw;
     left: 3rem;
+  }
+}
+
+.collection {
+  font-size: 3em;
+  font-family: $hex-ff;
+  @include display-flex;
+  width: 100%;
+  li {
+    line-height: 2em;
+    width: 50%;
+    // display: inline-block;
   }
 }
