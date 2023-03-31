@@ -36,7 +36,36 @@ export const script = `
 
     // images setup 1920 1440
     const images = [
-      "http://localhost:3000/images/ethereal/9_500x80.jpg"
+      "http://localhost:3000/images/ethereal/ethereal_0.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_1.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_2.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_3.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_4.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_5.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_6.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_7.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_8.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_9.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_0.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_1.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_2.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_3.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_4.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_5.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_6.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_7.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_8.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_p_9.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_0.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_1.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_2.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_3.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_4.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_5.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_6.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_7.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_8.jpg",
+      "http://localhost:3000/images/ethereal/ethereal_b_9.jpg"
     ];
 
     // content setup
@@ -160,8 +189,8 @@ export const scripts = `
     
             ///////////////////////////////
     
-            let imgWidth = 5200;
-            let imgHeight = 2600;
+            let imgWidth = 6600;
+            let imgHeight = 5000;
     
             // remove pixi message in console
             PIXI.utils.skipHello();
