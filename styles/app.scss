@@ -590,31 +590,33 @@ ul.tillandsias {
 // ------------------------------------------------------------
 /* demo css */
 /* Page Loader */
-.js .loading::before,
-.js .loading::after {
-  content: '';
-  position: fixed;
-  z-index: 1000;
-}
-
-.js .loading::before {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: var(--color-bg);
-}
-
-.js .loading::after {
-  top: 50%;
-  left: 50%;
-  width: 60px;
-  height: 60px;
-  margin: -30px 0 0 -30px;
-  border-radius: 50%;
-  opacity: 0.4;
-  background: var(--color-link);
-  animation: loaderAnim 0.7s linear infinite alternate forwards;
+.js {
+  .loading {
+    ::before,
+    ::after {
+      content: '';
+      position: fixed;
+      z-index: 1000;
+    }
+    ::before {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: $pink;
+    }
+    ::after {
+      top: 50%;
+      left: 50%;
+      width: 60px;
+      height: 60px;
+      margin: -30px 0 0 -30px;
+      border-radius: 50%;
+      opacity: 0.4;
+      background: var(--color-link);
+      animation: loaderAnim 0.7s linear infinite alternate forwards;
+    }
+  }
 }
 
 @keyframes loaderAnim {
@@ -624,65 +626,9 @@ ul.tillandsias {
   }
 }
 
-// a {
-//   text-decoration: none;
-//   color: var(--color-link);
-//   outline: none;
-// }
-
-// a:hover,
-// a:focus {
-//   color: var(--color-link-hover);
-//   outline: none;
-// }
-
-// .message {
-//   background: var(--color-text);
-//   color: var(--color-bg);
-//   padding: 1rem;
-//   text-align: center;
-// }
-
-// .frame {
-//   padding: 3rem 5vw;
-//   text-align: center;
-//   position: relative;
-//   z-index: 1000;
-// }
-
-// .frame__title {
-//   font-size: 1rem;
-//   margin: 0 0 1rem;
-//   font-weight: normal;
-// }
-
-// .frame__links {
-//   display: inline;
-// }
-
-// .frame__links a:not(:last-child),
-// .frame__demos a:not(:last-child) {
-//   margin-right: 1rem;
-// }
-
-// .frame__demos {
-//   margin: 1rem 0;
-// }
-
-// .frame__demo--current,
-// .frame__demo--current:hover {
-//   color: var(--color-text);
-// }
-
-// .content {
-//   display: flex;
-//   flex-direction: column;
-//   width: 100%;
-//   height: calc(100vh - 13rem);
-//   position: relative;
-//   justify-content: flex-start;
-//   align-items: center;
-// }
+* {
+  outline: 1px solid $pink;
+ }
 
 @media screen and (min-width: 53em) {
   .message {
@@ -760,44 +706,42 @@ canvas {
   left: 0;
 }
 
-nav.galNav a {
-  color: #ff00cc;
-  text-decoration: none;
-  /*margin-right: 14px;*/
-  position: absolute;
-  top: 50vh;
-  z-index: 1;
+nav.galNav {
+  a {
+    color: transparent;
+    text-decoration: none;
+    /*margin-right: 14px;*/
+    position: absolute;
+    top: 50vh;
+    z-index: 1;
+    font-size: 3em;
+    &:hover, a:focus {
+      color: #ff00cc;
+      outline: none;
+    }
+  }
+  span {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--color-link-hover);
+    display: block;
+    margin-top: 7px;
+    -moz-transition: width 0.3s ease;
+    -webkit-transition: width 0.3s ease;
+    transition: width 0.3s ease;
+  }
+  a:hover span {
+    width: 0;
+  }
+  a.next {
+    right: 10vw;
+  }
+  a.prev {
+    left: 10vw;
+  }
 }
-
-nav.galNav a:hover,
-nav.galNav a:focus {
-  color: #ff00cc;
-  outline: none;
-}
-
-nav.galNav span {
-  position: absolute;
-  width: 100%;
-  height: 1px;
-  background-color: var(--color-link-hover);
-  display: block;
-  margin-top: 7px;
-  -moz-transition: width 0.3s ease;
-  -webkit-transition: width 0.3s ease;
-  transition: width 0.3s ease;
-}
-
-nav.galNav a:hover span {
-  width: 0;
-}
-
-nav.galNav a.next {
-  right: 10vw;
-}
-
-nav.galNav a.prev {
-  left: 10vw;
-}
+ 
 
 @media screen and (max-width: 53em) {
   nav.galNav a {

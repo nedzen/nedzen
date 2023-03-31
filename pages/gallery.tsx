@@ -18,22 +18,18 @@ export const About = (): JSX.Element => {
         title: 'Tillandsia',
       }}
     >
-      <main>
-        <div className="content">
-          <div id="rgbKineticSlider" className="rgbKineticSlider"></div>
-          <nav className="galNav">
-            <a href="#" className="main-nav prev" data-nav="previous">
-              Prev <span></span>
-            </a>
-            <a href="#" className="main-nav next" data-nav="next">
-              Next <span></span>
-            </a>
-          </nav>
-        </div>
+      <div id="rgbKineticSlider" className="rgbKineticSlider"></div>
+      <nav className="galNav">
+        <a href="#" className="main-nav prev" data-nav="previous">
+          Prev
+        </a>
+        <a href="#" className="main-nav next" data-nav="next">
+          Next
+        </a>
+      </nav>
 
-        <div dangerouslySetInnerHTML={{ __html: scripts }} />
-        <div dangerouslySetInnerHTML={{ __html: script }} />
-      </main>
+      <div dangerouslySetInnerHTML={{ __html: scripts }} />
+      <div dangerouslySetInnerHTML={{ __html: script }} />
     </Layout>
   );
 };

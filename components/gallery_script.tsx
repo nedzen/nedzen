@@ -21,7 +21,7 @@ export const script = `
   <script>
     document.addEventListener('DOMContentLoaded', function() {
       // kinetic slider autoplay
-      var waitingDuration = 5000; // waiting for 1 second
+      var waitingDuration = 10000; // waiting for 1 second
       var counter = 0;
       var clickNextBtn = window.setInterval(function() {
         var nextBtn = document.querySelector('.next');
